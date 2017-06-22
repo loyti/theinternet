@@ -1,0 +1,157 @@
+#wrapper{
+    margin: 0px;
+    padding: 0px;
+}
+.blue{
+    color: blue;
+}
+.red{
+    color: red;
+}
+.header{
+}
+.title{
+    display: inline;
+    z-index: 100;
+}
+.title h1{
+    display: inline;
+}
+.title img, .title>img{
+    z-index: 100;
+}
+.about h2{
+    background: blue; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(darkblue, lightblue, darkblue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(darkblue, lightblue, darkblue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(darkblue, lightblue, darkblue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(darkblue, lightblue, darkblue); /* Standard syntax */
+    color: #fff;
+    width: 100%;
+    margin: 0px;
+    padding: 10px 25px 10px 25px;
+    z-index: 1;
+}
+.mainBody{
+    display: block;
+    max-width: 1000px;
+    background: #eee; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#eee, #fff, #fff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#eee, #fff, #fff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#eee, #fff, #fff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#eee, #fff, #fff); /* Standard syntax */
+}
+.sideNav{
+    display: inline-block;
+    max-width: 200px;
+    margin: 0px;
+    vertical-align: top;
+}
+.navBar{
+    max-width: 200px;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    border-bottom: 2px solid grey;
+}
+.navBar h3, .navBar h4{
+    padding: 7px;
+}
+button{
+    width: 90%;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.watch{
+    background-color: lightblue;
+    color: #fff;
+    margin: 10px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+.more{
+    background-color: orange;
+    color: #fff;
+    margin: 10px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+.navAd{
+    max-width: 200px;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    vertical-align: top;
+    padding-bottom: 20px;
+    background-image: url("https://github.com/loyti/theinternet/blob/master/images/ad_background.png?raw=true");
+}
+.navAd h3{
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+}
+.learnMore{
+    background-color: lightblue;
+    color: #fff;
+    margin: 10px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    font-weight: bolder;
+    text-align: center;
+    vertical-align: top;
+}
+.body{
+    display: inline-block;
+    margin: 5px 5px 5px 20px;
+    max-width: 700px;
+}
+.body h4, .body h3{
+    color: blue;
+    max-width: 700px;
+}
+.bodyHead{
+    border-bottom: 2px solid grey;
+    width: 100%;
+    display: inline-block;
+}
+.bodyAct1, .bodyAct1 h4, .bodyAct1 h3, .bodyAct1 p, .bodyAct1 img{
+    display: inline-block;
+    padding: 0px 10px;
+    vertical-align: center;
+}
+.bodyAct2, .bodyAct2 h3, .bodyAct2 p{
+    display: block;
+    text-align: right;
+    padding-left: 20px;
+}
+.call{
+    text-align: right;
+}
+.bodyContent{
+    display: inline-block;
+    max-width: 700px;
+}
+.bodyContent a{
+    text-decoration: none;
+}
+.bodyContent img{
+    text-align: center;
+    vertical-align: center;
+}
+.footer{
+    display: inline-block;
+    margin-top: 20px;
+    max-width: 700px;
+    border: 5px solid darkblue;
+    border-bottom: none;
+    padding: 20px;
+    vertical-align: top;
+}
+.footer img, footerImg img{
+    display: inline;
+}
+.footer h4, .footer p{
+    display: block;
+}
