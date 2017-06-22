@@ -133,13 +133,12 @@ button{
 }    
 .bodyCall2>img, bodyCall2 img{
     display: inline;
-    vertical-align: middle;
+    vertical-align: center;
 }
 .bodyAct2{
     display: inline-block;
 }
 .bodyAct2 h3, .bodyAct2 p{
-    
     text-align: right;
 }
 .call{
@@ -151,6 +150,10 @@ button{
 }
 .bodyContent a{
     text-decoration: none;
+}
+.bodyImg>img, .bodyImg img, .bodyImg image, .bodyImg>image{
+    text-align: center;
+    text-align: middle;
 }
 .bodyContent>img, .bodyContent img{
     text-align: center;
@@ -164,11 +167,10 @@ button{
     border: 5px solid darkblue;
     border-bottom: none;
     padding: 20px;
-    vertical-align: top;
 }
-.footer img, footerImg img{
+.footerImg img, footerImg>img{
     display: inline;
 }
-.footer h4, .footer p{
-    display: inline;
+.footerContent h4, .footerContent p{
+    display: inline-block;
 }
