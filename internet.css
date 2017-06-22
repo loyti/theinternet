@@ -9,6 +9,7 @@
     color: red;
 }
 .header{
+    max-width: 1000px;
 }
 .title{
     display: inline;
@@ -18,6 +19,7 @@
     display: inline;
 }
 .title img, .title>img{
+    margin: 0px 0px -25px 0px;
     z-index: 100;
 }
 .about h2{
@@ -27,7 +29,7 @@
     background: -moz-linear-gradient(darkblue, lightblue, darkblue); /* For Firefox 3.6 to 15 */
     background: linear-gradient(darkblue, lightblue, darkblue); /* Standard syntax */
     color: #fff;
-    width: 100%;
+    max-width: 1000px;
     margin: 0px;
     padding: 10px 25px 10px 25px;
     z-index: 1;
@@ -109,22 +111,36 @@ button{
 }
 .body h4, .body h3{
     color: blue;
-    max-width: 700px;
 }
 .bodyHead{
+    display: inline-block;
     border-bottom: 2px solid grey;
     width: 100%;
-    display: inline-block;
 }
-.bodyAct1, .bodyAct1 h4, .bodyAct1 h3, .bodyAct1 p, .bodyAct1 img{
-    display: inline-block;
-    padding: 0px 10px;
-    vertical-align: center;
+.bodyAct1, .bodyAct1 h4, .bodyAct1 img{
+    display: inline;
+    padding: 10px 5px;
+    vertical-align: middle;
 }
-.bodyAct2, .bodyAct2 h3, .bodyAct2 p{
-    display: block;
+.bodyCall{
+    display: inline-block;
+    vertical-align: top;
     text-align: right;
-    padding-left: 20px;
+    margin-left: 350px;
+}
+.bodyCall2{
+    display: inline;
+}    
+.bodyCall2>img, bodyCall2 img{
+    display: inline;
+    vertical-align: middle;
+}
+.bodyAct2{
+    display: inline-block;
+}
+.bodyAct2 h3, .bodyAct2 p{
+    
+    text-align: right;
 }
 .call{
     text-align: right;
@@ -136,9 +152,10 @@ button{
 .bodyContent a{
     text-decoration: none;
 }
-.bodyContent img{
+.bodyContent>img, .bodyContent img{
     text-align: center;
-    vertical-align: center;
+    vertical-align: middle;
+    margin: auto;
 }
 .footer{
     display: inline-block;
@@ -153,5 +170,5 @@ button{
     display: inline;
 }
 .footer h4, .footer p{
-    display: block;
+    display: inline;
 }
