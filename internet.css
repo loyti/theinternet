@@ -1,15 +1,18 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 #wrapper{
     margin: 0px;
     padding: 0px;
 }
 .blue{
-    color: blue;
+    color: #4774a2;
 }
 .red{
     color: red;
 }
 .header{
-    max-width: 1000px;
+    max-width: 1080px;
 }
 .title{
     display: inline;
@@ -22,21 +25,21 @@
     margin: 0px 0px -25px 0px;
     z-index: 100;
 }
-.about h2{
-    background: blue; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(darkblue, lightblue, darkblue); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(darkblue, lightblue, darkblue); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(darkblue, lightblue, darkblue); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(darkblue, lightblue, darkblue); /* Standard syntax */
+.about{
+    background: #345980; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#345980, lightblue, #345980); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#345980, lightblue, #345980); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#345980, lightblue, #345980); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#345980, lightblue, #345980); /* Standard syntax */
     color: #fff;
-    max-width: 1000px;
+    max-width: 1080px;
     margin: 0px;
     padding: 10px 25px 10px 25px;
     z-index: 1;
 }
 .mainBody{
     display: block;
-    max-width: 1000px;
+    max-width: 1080px;
     background: #eee; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#eee, #fff, #fff); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#eee, #fff, #fff); /* For Opera 11.1 to 12.0 */
@@ -45,12 +48,12 @@
 }
 .sideNav{
     display: inline-block;
-    max-width: 200px;
+    max-width: 250px;
     margin: 0px;
     vertical-align: top;
 }
 .navBar{
-    max-width: 200px;
+    max-width: 250px;
     padding-bottom: 10px;
     margin-bottom: 25px;
     border-bottom: 2px solid grey;
@@ -65,7 +68,7 @@ button{
     padding-bottom: 20px;
 }
 .watch{
-    background-color: lightblue;
+    background-color: #345980;
     color: #fff;
     margin: 10px;
     padding: 5px 10px 5px 10px;
@@ -73,7 +76,7 @@ button{
     font-weight: bolder;
 }
 .more{
-    background-color: orange;
+    background-color: darkorange;
     color: #fff;
     margin: 10px;
     padding: 5px 10px 5px 10px;
@@ -81,7 +84,7 @@ button{
     font-weight: bolder;
 }
 .navAd{
-    max-width: 200px;
+    max-width: 250px;
     text-align: center;
     color: #fff;
     width: 100%;
@@ -95,7 +98,7 @@ button{
     margin: 0px;
 }
 .learnMore{
-    background-color: lightblue;
+    background-color: #57c1db;
     color: #fff;
     margin: 10px;
     padding: 5px 10px 5px 10px;
@@ -110,7 +113,7 @@ button{
     max-width: 700px;
 }
 .body h4, .body h3{
-    color: blue;
+    color: #4774a2;
 }
 .bodyHead{
     display: inline-block;
@@ -138,11 +141,16 @@ button{
 .bodyAct2{
     display: inline-block;
 }
-.bodyAct2 h3, .bodyAct2 p{
+.bodyAct2 h3 {
+    color: #57c1db;
     text-align: right;
+    padding: 0px;
+    margin: 0px;
 }
-.call{
+.bodyAct2 p{
     text-align: right;
+    padding: 0px;
+    margin: 0px;
 }
 .bodyContent{
     display: inline-block;
@@ -151,14 +159,13 @@ button{
 .bodyContent a{
     text-decoration: none;
 }
-.bodyImg>img, .bodyImg img, .bodyImg image, .bodyImg>image{
+.bodyImg{
     text-align: center;
-    text-align: middle;
+    margin-left: 175px;
 }
 .bodyContent>img, .bodyContent img{
     text-align: center;
     vertical-align: middle;
-    margin: auto;
 }
 .footer{
     display: inline-block;
@@ -168,9 +175,17 @@ button{
     border-bottom: none;
     padding: 20px;
 }
-.footerImg img, footerImg>img{
+.footer img{
     display: inline;
 }
-.footerContent h4, .footerContent p{
+.footer h4{
+    margin-left: 20px;
     display: inline-block;
+    vertical-align: top;
+}
+.footer p{
+    display: inline-block;
+    margin-left: 180px;
+    margin-top: -75px;
+    vertical-align: top;
 }
