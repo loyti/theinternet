@@ -147,11 +147,13 @@ button{
     text-align: right;
     padding: 0px;
     margin: 0px;
+    font-size: 24px;
 }
 .bodyAct2 p{
     text-align: right;
     padding: 0px;
     margin: 0px;
+    font-size: 12px;
 }
 .bodyContent{
     display: inline-block;
